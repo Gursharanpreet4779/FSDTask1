@@ -1,0 +1,84 @@
+h3.inline{
+    display: inline;
+    margin-right: 10px;
+}
+h3{
+    color:rgb(5, 5, 9);
+}
+.image1:hover .text {
+    opacity: 1;
+}
+body {
+    background-color: #F2F2F2;
+    font-family:  Arial, Helvetica;
+  }
+  
+  .text {
+    font-size: 25px;
+    font-weight: bold;
+    background-color:rgba(0, 0, 0, 0.389);
+    color:rgb(244, 239, 239);
+    text-align: center;
+    position: relative;
+    top: -75px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .image2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .image2 img{
+    border-radius: 50%;
+  }
+  .text1{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+  }
+  .line1,.line2{
+    font-weight: bold;
+    color:rgb(9, 12, 14);
+    text-align: center;
+  }
+  .text3,.text6{
+    font-size:32px;
+    color: rgb(0, 76, 255);
+    font-weight:bold;
+    text-align:center;
+  }
+.image3,.image4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right:70px;
+  }
+  .text4,.text5
+  {
+    font-size:15px;
+    padding-left: 850px;
+    position: relative;  /* Make the position relative */
+    top: -95px;
+  }
+
+  
+  .image_gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px auto;  /* Center the entire gallery on page */
+    max-width: 1000px;   /* Set a maximum width for gallery */
+}
+
+.image_gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
